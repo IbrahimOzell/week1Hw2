@@ -272,14 +272,52 @@ public class Main {
 			System.out.println("Mükemmel sayı değildir");
 		}
 		
+//------------------------------------------------------------------------------------
 		
+		//miniProjeArkadaşSayılar
+		int sayi5=221;
+		int sayi6=284;
+		int toplam1=0;
+		int toplam2=0;
 		
+		for(int q=1;q<sayi5;q++) {
+			if(sayi5%q==0) {
+				toplam1 = toplam1 +q;
+			}
+		}
 		
+		for(int q=1;q<sayi6;q++) {
+			if(sayi6%q==0) {
+				toplam2 = toplam2 +q;
+			}
+		}
 		
+		if(sayi5==toplam2 && sayi6==toplam1) {
+			System.out.println("Bu iki sayı arkadaştır");
+		}else {
+			System.out.println("Bu iki sayı arkadaş değildir");
+		}
 		
+//-------------------------------------------------------------------------------------
 		
+		//miniProjeSayıBulma
+		int[] sayilar = new int[] {1,2,5,7,9,0};
+		int aranacak = 5;
+		boolean varMi = false;
 		
+		for(int sayi7 : sayilar) {
+			if(sayi==aranacak) {
+				varMi = true;
+				break;
+			}
+		}
 		
+		if(varMi) {
+			System.out.println("Sayi mevcuttur");
+		}else {
+			System.out.println("Sayi mevcut değildir");
+		}
 	}
 
 }
+
