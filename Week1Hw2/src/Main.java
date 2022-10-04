@@ -306,7 +306,7 @@ public class Main {
 		boolean varMi = false;
 		
 		for(int sayi7 : sayilar) {
-			if(sayi==aranacak) {
+			if(sayi7==aranacak) {
 				varMi = true;
 				break;
 			}
